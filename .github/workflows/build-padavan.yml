@@ -14,7 +14,7 @@ on:
   watch:
     types: [started]
 env:
-APPLY_RAINBOWTHEME: ON
+  APPLY_RAINBOWTHEME: ON
 
 jobs:
   build:
