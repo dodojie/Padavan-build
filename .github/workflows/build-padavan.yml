@@ -41,7 +41,7 @@ jobs:
     - name: 彩虹主题 / Apply Rainbow Themes
       if: env.APPLY_RAINBOWTHEME == 'ON'
       run: |
-        sudo cp -f /rainbowthemes/rainbowthemes.tar.xz $WORK_PATH/trunk/user/www
+        sudo cp -f rainbowthemes/rainbowthemes.tar.xz $WORK_PATH/trunk/user/www
         cd $WORK_PATH/trunk/user/www
         sudo chmod +x ./rainbowthemes.tar.xz
         mkdir -p n56u_rainbow
